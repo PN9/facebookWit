@@ -3,6 +3,9 @@
   "version": "1.0.0",
   "description": "Simple Wit-Facebook",
   "main": "index.js",
+  "engines": {
+    "node": ">=7"
+  },
   "scripts": {
     "start": "node index.js",
     "bot": "node bot.js",
@@ -18,16 +21,18 @@
     ]
   },
   "dependencies": {
-    "body-parser": "^1.15.0",
-    "express": "^4.13.4",
-    "node-wit": "^3.2.2",
-    "node-uuid": "^1.4.7",
-    "request": "^2.72.0",
     "babel-core": "^6.0.0",
     "babel-jest": "^6.0.1",
     "babel-polyfill": "^6.1.4",
     "bl": "^1.0.0",
-    "jest-cli": "^0.7.1"
+    "body-parser": "^1.15.0",
+    "express": "^4.13.4",
+    "jest-cli": "^0.7.1",
+    "node-salesforce": "file:node-salesforce",
+    "node-uuid": "^1.4.7",
+    "node-wit": "^3.2.2",
+    "q": "^1.5.0",
+    "request": "^2.72.0"
   },
   "repository": {
     "type": "git",

@@ -1,21 +1,20 @@
-# Wit-Facebook
-[![Build Status](https://travis-ci.org/hunkim/Wit-Facebook.svg?branch=master)](https://travis-ci.org/hunkim/Wit-Facebook)
-[![Codacy Badge](https://api.codacy.com/project/badge/grade/7442b6c4eb6b48a890d751c0da5a3b6d)](https://www.codacy.com/app/hunkim/Wit-Facebook)
+# FacebookWit (Bot Chat)
+
 
 Wit.ai and Facebook Messenger Integration Example
 ## Initial Installation
 Fork this repository and clone.
 
 ```bash
-git clone https://github.com/{forked}/Wit-Facebook.git
-cd Wit-Facebook
+git clone https://github.com/{forked}/facebookWit.git
+cd facebookWit
 npm install
  ```
 
 ## Configuration
 ### Wit Setting
 
-Go to https://wit.ai/home and create a wit app for you. Read https://wit.ai/docs/quickstart and see a demo at: https://wit.ai/sungkim/weather/stories.
+Go to https://wit.ai/home and create a wit app for you. Read https://wit.ai/docs/quickstart and see a demo at: https://wit.ai/jw84/weather/stories.
 Then, go to the setting in your wit app and get the token id.
 
 ![image](https://cloud.githubusercontent.com/assets/901975/14757067/58f03050-0922-11e6-813d-831df8614303.png)
@@ -169,9 +168,7 @@ The USER_ID error is OK, but make sure the bot says, "I see it’s sunny in Hong
 
 ## Credit
 I reused soruce code and configuration from:
-* https://github.com/wit-ai/node-wit
-* https://github.com/jw84/messenger-bot-tutorial
-* https://developers.facebook.com/docs/messenger-platform/quickstart
+* https://github.com/wit-facebook
 
 ## Contribution
 We welcome your comments and PRs!
